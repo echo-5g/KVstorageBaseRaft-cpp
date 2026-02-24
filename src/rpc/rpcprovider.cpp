@@ -7,6 +7,9 @@
 #include <string>
 #include "rpcheader.pb.h"
 #include "util.h"
+
+// 这份代码是一个基于 muduo 网络库 和 Protobuf 实现的 RPC（远程过程调用）服务端框架核心代码（RpcProvider类），主要负责发布 RPC 服务、处理网络连接、解析 RPC 请求、调用本地业务方法并返回响应。
+
 /*
 service_name =>  service描述
                         =》 service* 记录服务对象
