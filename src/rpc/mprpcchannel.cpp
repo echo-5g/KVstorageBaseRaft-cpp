@@ -9,6 +9,8 @@
 #include "rpcheader.pb.h"
 #include "util.h"
 
+//这份代码是基于 Protobuf 实现的 RPC 客户端通信通道（MprpcChannel）核心逻辑，负责 RPC 方法调用的数据序列化、网络传输、连接管理、响应接收与反序列化，是 RPC 框架中客户端侧的关键组件。
+
 /*
 header_size + service_name method_name args_size + args
 */
